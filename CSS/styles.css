@@ -13,8 +13,9 @@
 *::before {
   box-sizing: border-box;
 }
-/* Typography */
 
+/*  */
+/* Typography */
 html {
   font-size: 62.5%;
 }
@@ -66,8 +67,8 @@ p {
   }
 }
 
+/*  */
 /* Links */
-
 a {
   text-decoration: none;
 }
@@ -95,8 +96,8 @@ a {
   }
 }
 
+/*  */
 /* Badges */
-
 .badge {
   border-radius: 20px;
   font-size: 2rem;
@@ -130,8 +131,8 @@ a {
   }
 }
 
+/*  */
 /* Lists */
-
 .list {
   list-style: none;
   padding-left: 0;
@@ -158,8 +159,8 @@ a {
   }
 }
 
+/*  */
 /* Icons */
-
 .icon {
   width: 40px;
   height: 40px;
@@ -179,8 +180,8 @@ a {
   align-items: center;
 }
 
+/*  */
 /* Button */
-
 .btn {
   border-radius: 40px;
   border: 0;
@@ -243,8 +244,8 @@ a {
   }
 }
 
+/*  */
 /* Inputs */
-
 .input {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
@@ -280,8 +281,8 @@ a {
   }
 }
 
+/*  */
 /* Cards */
-
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
@@ -311,6 +312,7 @@ a {
   background: #126de4;
 }
 
+/*  */
 /* plans */
 .plan__name {
   color: #fff;
@@ -370,4 +372,22 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/*  */
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
